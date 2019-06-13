@@ -1,0 +1,83 @@
+
+
+table{text-align: center !important;}
+
+.m-link:hover:after 
+{
+    border-bottom: 1px solid #4686AA;
+}
+
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item.m-menu__item--active>.m-menu__heading .m-menu__link-icon, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item.m-menu__item--active>.m-menu__link .m-menu__link-icon {
+    color: #c2c2c2;
+}
+
+.m-link,
+.m-link:hover,
+.btn.m-btn--label-brand
+{
+    color: #4686AA !important;
+}
+
+.btn-brand,
+.btn-brand:hover,
+.btn-brand:active,
+.m-brand .m-brand__tools .m-brand__toggler.m-brand__toggler--active span,
+.m-brand .m-brand__tools .m-brand__toggler.m-brand__toggler--active span::before, 
+.m-brand .m-brand__tools .m-brand__toggler.m-brand__toggler--active span::after,
+.m-brand .m-brand__tools .m-brand__toggler:hover span,
+.m-brand .m-brand__tools .m-brand__toggler:hover span::before, 
+.m-brand .m-brand__tools .m-brand__toggler:hover span::after,
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item.m-menu__item--active>.m-menu__heading, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item.m-menu__item--active>.m-menu__link
+{
+    background-color : #4686AA !important;
+}
+
+.btn-brand,
+.btn-brand:hover,
+.btn-brand:active,
+.m-checkbox.m-checkbox--focus>input:checked~span,
+.m-checkbox.m-checkbox--focus>input:checked ~ span,
+.m-checkbox.m-checkbox--focus>span:after,
+.m-checkbox--focus>span:after
+{
+    border: 1px solid #4686AA !important;
+}
+
+
+/** Start Navbar **/
+.m-brand .m-brand__logo .m-brand__logo-wrapper {height:65px; width:70px;}
+/** End Navbar **/
+
+
+/** start Pagination **/
+.m--align-center .pagination {align-content:center; justify-content:center; margin:0;}
+.page-item.active .page-link {background-color:#4686aa; border-color:#4686aa;}
+.page-link {color:#4686aa;}
+/** end Pagination **/
+
+
+/** Start Login **/
+.m-login.m-login--1 .m-login__wrapper .m-login__form .m-form__group .form-control:focus::-webkit-input-placeholder{color: #4686AA;}
+.m-login.m-login--1 .m-login__wrapper .m-login__form .m-form__group .form-control:focus::-moz-placeholder{color: #4686AA;}
+.m-login.m-login--1 .m-login__wrapper .m-login__form .m-form__group .form-control:focus:-ms-input-placeholder{color: #4686AA;}
+.m-login.m-login--1 .m-login__wrapper .m-login__logo {margin: 0 auto 2rem auto;}
+.m-login.m-login--1 .m-login__wrapper {padding: 2rem;}
+.m-login.m-login--1 .m-login__aside {margin:auto;}
+.m-login__desc {margin-bottom:1.5rem;}
+.m-login.m-login--1 .m-login__wrapper .m-login__form {margin-top: 3rem;}
+/** End Login **/
+
+
+.invalid-feedback {display:block;}
+.form-control.focus, .form-control:focus {border-color: #d8d8d8;}
+.m-checkbox>span:after {
+    top: 50%;
+    right: 50%;
+    margin-right: -3px;
+    margin-top: -6px;
+    width: 5px;
+    height: 10px;
+    border-width: 0 2px 2px 0px !important;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(45deg);
+}
